@@ -187,3 +187,39 @@ footer img:hover {
 ol {
     padding:0;
 }
+
+@media only screen and (max-width: 600px) {
+    .cheesed {
+      width:90%
+    }
+
+    #cheeseLies h2{
+        font-size: 4vw;
+    }
+
+    #cheeseLies p{
+        font-size: 3vw;
+    }
+
+    #greats h2 {
+        font-size: 4vw;
+    }
+
+    #greats li {
+        font-size: 3vw;
+    }
+
+    #cheeseKing{
+        width:75%;
+    }
+
+    #wave-body {
+        min-height: 15vh;
+    }
+
+    footer p{
+        width: 75%;
+        text-align: center;
+        margin:auto;
+    }
+}
